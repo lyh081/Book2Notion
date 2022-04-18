@@ -1,0 +1,109 @@
+header {
+    display: block;
+    width: 280px;
+    background-color: #4285f4;
+    padding: 10px;
+    font-size: 16px;
+    color: #FFF;
+    text-align: center;   
+}
+body {
+    width: 300px;
+    margin: 0;
+    border: 0;
+}
+
+
+#pretitle {
+    margin-left: 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+#cover {
+    display: block;
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+img {
+    max-width: 108px;
+    max-height: 160px;
+}
+
+#pre {
+    overflow: hidden;
+}
+
+#pre p{
+    display: block;
+    margin: 0 0 10px 15px;
+    font-size: 12px;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+
+/* .option-row {
+    margin: 10px 10px 5px 10px;
+} */
+
+.title {
+    display: block;
+    float: left;
+    width: 40px;
+    height: 27px;
+    font-size: 14px;
+    margin: 5px;
+}
+
+
+.text {
+    overflow: hidden;
+}
+
+textarea {
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    border: 1 none;
+    border-radius: 20px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.btn button {
+    display: block;
+    font-size: 12px;
+    width: 85px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    background-color: #4285f4;
+    color: #FFF;
+    border: 0 none;
+    border-radius: 4px 4px 4px 4px;
+}
+
+footer {
+    display: block;
+}
+.gtx-footer {
+    background-color: #f0f0f0;
+    color: #636363;
+    font-family: 'Roboto',sans-serif;
+    font-size: 11px;
+    margin-top: 9px;
+    padding: 10px;
+    text-align: center;
+    width: 280px;
+}
+
+.gtx-a {
+    color: #4285f4;
+    display: inline;
+    font-size: 11px;
+    text-decoration: none
+}

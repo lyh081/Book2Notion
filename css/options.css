@@ -1,0 +1,91 @@
+body {
+    background-color: #eee;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+#content {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 20px auto 20px;
+    padding: 32px;
+    width: 500px
+}
+
+h1 {
+    color: #333333;
+    font-size: 1.5em;
+    margin: 0 0 2em 0;
+    text-align: center
+}
+img {
+    height: 60px;
+}
+
+.option-row {
+    margin: 10px 10px 5px 10px;
+}
+
+.title {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 20px;
+    padding: 5px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.text {
+    overflow: hidden;
+    width: 300px;
+    
+}
+
+textarea { 
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    border: 1 none;
+    border-radius: 20px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.btn {
+    text-align: center;
+}
+.btn #save {
+    font-size: 12px;
+    width: 85px;
+    margin: 30px 10px 0 0;
+    padding: 5px;
+    text-align: center;
+    background-color: #4285f4;
+    color: #FFF;
+    border: 0 none;
+    border-radius: 4px;
+}
+
+footer {
+    display: block;
+    margin: 0 auto;
+    width: 500px
+}
+.gtx-footer {
+    background-color: #f0f0f0;
+    color: #636363;
+    font-family: 'Roboto',sans-serif;
+    font-size: 11px;
+    padding: 10px;
+    text-align: center;
+    width: 280px;
+}
+
+.gtx-a {
+    color: #4285f4;
+    display: inline;
+    font-size: 11px;
+    text-decoration: none
+}

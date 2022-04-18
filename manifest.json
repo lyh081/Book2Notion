@@ -1,0 +1,38 @@
+{
+    "manifest_version": 3,
+    "name": "Book2Notion",
+    "version": "1.0",
+    "description": "将豆瓣书籍信息同步到Notion",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "imgs/icon16.png",
+        "48": "imgs/icon48.png",
+        "128": "imgs/icon128.png"
+    },
+    "permissions": [
+        "contextMenus",
+        "activeTab",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://api.notion.com/*"
+    ],
+    "action": {
+        "default_icon": {
+            "16": "imgs/icon16.png",
+            "48": "imgs/icon48.png",
+            "128": "imgs/icon128.png"
+        },
+        "default_popup": "popup.html"
+    },
+
+    "content_scripts": [
+        {
+          "matches": ["*://book.douban.com/subject/*"],
+          "js": ["js/content.js"]
+        }
+    ],
+    "options_page": "options.html"
+}
