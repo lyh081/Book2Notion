@@ -1,0 +1,2 @@
+# Book2Notion
+将豆瓣图书信息同步到Notion的Chrome插件
