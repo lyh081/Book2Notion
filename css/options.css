@@ -68,6 +68,18 @@ textarea {
     border-radius: 4px;
 }
 
+.btn #reset {
+    font-size: 12px;
+    width: 85px;
+    margin: 30px 10px 0 0;
+    padding: 5px;
+    text-align: center;
+    background-color: #cecece;
+    color: #FFF;
+    border: 0 none;
+    border-radius: 4px;
+}
+
 footer {
     display: block;
     margin: 0 auto;

@@ -5,7 +5,7 @@ chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
     var url = new RegExp('https://book.douban.com/subject/.*?/');
     if(url.test(tabs[0].url)=== false){
         send2Notion.setAttribute("disabled", true);
-        send2Notion.style.backgroundColor = "gray";
+        send2Notion.style.backgroundColor = "#cecece";
     }
     else {
         chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
@@ -20,7 +20,7 @@ chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
 
 send2Notion.addEventListener("click", ()=>{
     send2Notion.style.backgroundColor = "#3264B7";
-    send2Notion.setAttribute("disabled", false);
+    send2Notion.setAttribute("disabled", true);
     createItem(book)
 });
 
@@ -111,7 +111,7 @@ function createItem(book) {
             .then((response) => { return response.json() })
             .then((response) => {
                 if (response.object === "error") {
-                    alert(response);
+                    alert(response.message);
                     return false;
                 } else {
                     alert("书籍信息保存到Notion!")
@@ -119,8 +119,7 @@ function createItem(book) {
                 }
             })
             .then(()=>{
-                send2Notion.style.backgroundColor = "#4285f4";
-                send2Notion.setAttribute("disabled", true);
+                send2Notion.style.backgroundColor = "#cecece";
             });
         });
     });
