@@ -1,4 +1,4 @@
-title: [Book2Notion]
-description: [将豆瓣图书信息同步到Notion]
+title: Book2Notion
+description: 将豆瓣图书信息同步到Notion
 theme: jekyll-theme-minimal
-show_downloads: [true]
+show_downloads: true
