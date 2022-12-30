@@ -40,6 +40,10 @@
    选择存放书籍信息的Notion页面并记下该页面的ID。
 
    页面的ID可以就是该页面url最后的部分，例如：我的Notion主页链接为https://www.notion.so/cetus/Cetus-dfaee98a22184cb38636578b781da06d，页面ID就是 dfaee98a22184cb38636578b781da06d。这个页面ID在拓展中同样会用到。
+   
+   然后，在页面的Connections设置添加刚才所创建的机器人，如下图操作所示。
+   ![notion-add-connection](readmeImgs/notion-add-connection.png)
+   
 
 3. 设置Book2Notion拓展
 
